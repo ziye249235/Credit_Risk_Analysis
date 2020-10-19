@@ -10,7 +10,7 @@ Based on the results of the machine learning using different model, here are the
 
 ### Random Oversampling
 
-![ROS](Resources/Random oversampling.PNG)
+![Random oversampling](Resources/Random oversampling.PNG)
 
 - average balanced accuracy score
 - very poor precision score on high risk and very good precision score on low risk
@@ -18,7 +18,7 @@ Based on the results of the machine learning using different model, here are the
 
 ### SMOTE Oversampling
 
-![SMOTE](Resources/SMOTE oversampling.PNG)
+![SMOTE oversampling](Resources/SMOTE oversampling.PNG)
 
 - Negligeable improvement of balanced accuracy score over random oversampling
 - very poor precision score on high risk and very good precision score on low risk
@@ -34,7 +34,7 @@ Based on the results of the machine learning using different model, here are the
 
 ### SMOTEENN under/over sampling
 
-![SMOTEENN](Resources/over and under sampling.PNG)
+![over and under sampling](Resources/over and under sampling.PNG)
 
 - Negligeable improvement of balanced accuracy score over SMOTE Oversampling
 - very poor precision score on high risk and perfect precision score on low risk
@@ -42,7 +42,7 @@ Based on the results of the machine learning using different model, here are the
 
 ### Balanced Random Forest Classifier
 
-![BRF](Resources/Balances random forest.PNG)
+![Balances random forest](Resources/Balances random forest.PNG)
 
 - Considerable improvement of accuracy score compared to the resamplign models
 - very poor precision score on high risk and perfect precision score on low risk
@@ -51,7 +51,7 @@ Based on the results of the machine learning using different model, here are the
 ### Easy Ensemble AdaBoost Classifier
 
 ![EEC](Resources/EEC.PNG)
-e
+
 - Best accuracy score of all models
 - very poor precision score on high risk and perfect precision score on low risk
 - Very good recall score on both high risk and low risk
