@@ -9,37 +9,49 @@ This analysis was created in order to predict whether a person would have low or
 Based on the results of the machine learning using different model, here are the results:
 
 ### Random Oversampling
+
 ![ROS](Resources/Random oversampling.PNG)
+
 - average balanced accuracy score
 - very poor precision score on high risk and very good precision score on low risk
 - average recall scores
 
 ### SMOTE Oversampling
+
 ![SMOTE](Resources/SMOTE oversampling.PNG)
+
 - Negligeable improvement of balanced accuracy score over random oversampling
 - very poor precision score on high risk and very good precision score on low risk
 - average recall scores
 
 ### ClusterCentroids Undersampling
+
 ![CCU](Resources/Undersampling.PNG)
+
 - Worse accuracy score of all models, barely over 50%
 - very poor precision score on high risk and perfect precision score on low risk
 - Bad recall score on low risk (less than 50%) with slightly better recall score on high risk
 
 ### SMOTEENN under/over sampling
+
 ![SMOTEENN](Resources/over and under sampling.PNG)
+
 - Negligeable improvement of balanced accuracy score over SMOTE Oversampling
 - very poor precision score on high risk and perfect precision score on low risk
 - average recall score on low risk with better recall score on high risk
 
 ### Balanced Random Forest Classifier
+
 ![BRF](Resources/Balances random forest.PNG)
+
 - Considerable improvement of accuracy score compared to the resamplign models
 - very poor precision score on high risk and perfect precision score on low risk
 - Good recall score on both high risk and low risk
 
 ### Easy Ensemble AdaBoost Classifier
+
 ![EEC](Resources/EEC.PNG)
+
 - Best accuracy score of all models
 - very poor precision score on high risk and perfect precision score on low risk
 - Very good recall score on both high risk and low risk
