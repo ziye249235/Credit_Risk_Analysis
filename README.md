@@ -51,7 +51,7 @@ Based on the results of the machine learning using different model, here are the
 ### Easy Ensemble AdaBoost Classifier
 
 ![EEC](Resources/EEC.PNG)
-
+e
 - Best accuracy score of all models
 - very poor precision score on high risk and perfect precision score on low risk
 - Very good recall score on both high risk and low risk
