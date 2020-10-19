@@ -42,7 +42,7 @@ Based on the results of the machine learning using different model, here are the
 
 ### Balanced Random Forest Classifier
 
-![Balances random forest](Resources/Balances\ random\ forest.PNG)
+![Balances random forest](Resources/Balances%20random%20forest.PNG)
 
 - Considerable improvement of accuracy score compared to the resamplign models
 - very poor precision score on high risk and perfect precision score on low risk
